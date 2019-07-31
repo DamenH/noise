@@ -1,6 +1,6 @@
-import { Perlin } from "./noise/perlin.js";
-import { CubicInterp, LinearInterp, SCurve3, SCurve5 } from "./noise/interp.js";
-import { GradientCoherentNoise3D, GradientNoise3D, IntValueNoise3D, ValueCoherentNoise3D, ValueNoise3D, MakeInt32Range, fmod } from "./noise/noisegen.js";
+import { Perlin } from "./modules/perlin.js";
+import { CubicInterp, LinearInterp, SCurve3, SCurve5 } from "./modules/interp.js";
+import { GradientCoherentNoise3D, GradientNoise3D, IntValueNoise3D, ValueCoherentNoise3D, ValueNoise3D, MakeInt32Range, fmod } from "./modules/noisegen.js";
 
 export class NoiseTestRunner
 {

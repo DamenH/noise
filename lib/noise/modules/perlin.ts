@@ -1,4 +1,4 @@
-import { NoiseQuality, GradientCoherentNoise3D, MakeInt32Range } from "../noisegen.js";
+import { NoiseQuality, GradientCoherentNoise3D, MakeInt32Range } from "./noisegen.js";
 
 /**
  * Noise module that outputs 3-dimensional Perlin noise.
